@@ -1,10 +1,10 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'prac09/version'
+
 
 Gem::Specification.new do |spec|
-  spec.name          = "prac09"
-  spec.version       = Prac09::VERSION
+  spec.name          = "pract09"
+  spec.version       = Pract09::0.0
   spec.authors       = ["Marias Rojas","Guillermo Rivero"]
   spec.email         = ["alu0100605983@ull.edu.es","alu0100702149@ull.edu.es"]
   spec.description   = %q{Gema para gestionar distintos tipos de matrices}
