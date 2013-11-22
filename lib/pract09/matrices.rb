@@ -78,9 +78,9 @@ class Matriz
 	end	
 
 	def ==(other)
-		if(@fil == other.fil && @col == other.col)
-			for i in(0...@fil)
-					for j in(0...@col)
+		if(self.fil == other.fil && self.col == other.col)
+			for i in(0...self.fil)
+					for j in(0...self.col)
 						if(self[i,j] != other[i,j])
 							return false
 						end

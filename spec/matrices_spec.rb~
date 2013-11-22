@@ -40,7 +40,7 @@ describe Matriz do
                 end                
 
                 it "Suma de fracciones con enteros" do
-                        (@m1+@m3).should eq(Matriz.constructorvec(3,3,[Fraccion.new(3,2), Fraccion.new(13,4), Fraccion.new(3,4),Fraccion.new(2,1), Fraccion.new(5,3), Fraccion.new(3,2),Fraccion.new(7,2), Fraccion.new(8,3), Fraccion.new(9,4)]))
+                        (@m1+@m3).should eq(Matriz.constructorvec(3,3,[Fraccion.new(3,2), Fraccion.new(7,3), Fraccion.new(13,4),Fraccion.new(9,2), Fraccion.new(16,3), Fraccion.new(25,4),Fraccion.new(15,2), Fraccion.new(25,3), Fraccion.new(37,4)]))
                 end   
         end
 end
